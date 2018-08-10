@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>WebPageTest API Key</title>
+
+<style>
+#note, #status {font-weight:bold;}
+#status { color:green; font-size:150%; }
+</style>
+
+</head>
+<body>
+
+<div id="note">WebPageTest will work ONLY with your own API Key!</div>
+<br />
+<label>
+Please input your WebPageTest API Key
+<input type="text" id="wptk">
+</label>
+
+<br />
+
+<button id="save" onclick="save_options()">Save</button>
+<br />
+<div id="status"></div>
+<br />
+<hr />
+<br />
+
+<div id="noapi">
+<strong>Don't have a WebPageTest API Key yet?</strong> - Get it immediately under <a href="https://www.webpagetest.org/getkey.php" target="_blank">https://www.webpagetest.org/getkey.php</a>
+<br /><br />
+Your own WebPageTest API Key is <strong>free</strong> and allows to execute 200 tests a day!
+</div>
+
+<script src="options.js"></script>
+</body>
+</html>
